@@ -15,7 +15,6 @@ fun main() {
 }
 
 fun fuck(num: Long) {
-    if(num < 0) return
     list.add(num)
     val last = num % 10
 
